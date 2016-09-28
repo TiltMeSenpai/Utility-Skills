@@ -1,0 +1,30 @@
+{
+  "domain": "questions",
+  "skills": {
+    "SearchSkill": {
+      "question": "required",
+      "conjunction": "optional",
+      "phrase": "required"
+    }
+  },
+  "vocab":{
+    "question":[
+      "who",
+      "what",
+      "when",
+      "where",
+      "why"
+    ],
+    "conjunction":[
+      "is the",
+      "was the",
+      "was the",
+      "is",
+      "are",
+      "was"
+    ]
+  },
+  "regexes":[
+    "(?P<phrase>.+)"
+  ]
+}
